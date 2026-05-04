@@ -1,0 +1,13 @@
+# Vivado temporary files
+*.log
+*.jou
+*.str
+*.os
+.Xil/
+*.pb
+*.vdi
+
+# Synthesis and Implementation outputs
+/project_name.runs/
+/project_name.gen/
+/project_name.srcs/utils_1/
