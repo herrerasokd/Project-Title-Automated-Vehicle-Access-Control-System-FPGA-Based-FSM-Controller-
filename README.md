@@ -25,9 +25,12 @@ Brief description of your automated vehicle access system and its key features.
 - [x] Hardware FSM Structure: Implemented (barrier_fsm.v)
 - [x] Simulation Environment: Established (tb_barrier.v)
 
-### Progress Check 2 (TBD)
-- [ ] Hardware Implementation
-- [ ] Physical Testing
+### Progress Check 2 (May 18, 2026)
+- [x] Hardware Implementation: Complete
+- [x] Physical Testing: Complete
+
+### Final Checking (May 19, 2026)
+- [ ] Final Review and Documentation
 
 ## References
 [Your citations here]
