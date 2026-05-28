@@ -1,4 +1,4 @@
-# Automated Vehicle Access Control System - FPGA-Based FSM Controller
+ # Automated Vehicle Access Control System - FPGA-Based FSM Controller
 
 ## Project Overview
 The Automated Vehicle Access Control System is a high-performance hardware-level parking management system designed to regulate vehicle entry and exit points autonomously. Implemented entirely via a Finite State Machine (FSM) on a Field Programmable Gate Array (FPGA), the controller interfaces directly with vehicle classification sensors (ultrasonic/infrared) and electromechanical gates to manage vehicle flow.
@@ -54,25 +54,6 @@ Actuators: High-torque MG996R Servo Motor or DC Stepper Motor running via an H-B
 │   └── tb_barrier.v       # Behavioral Testbench: Drives simulation waveforms 
 └── documentation/
     └── system_report.md   # Final Technical Reference Specifications
-
-## Progress Tracking
-
-### Progress Check 1 (May 5, 2026)
--Concept Proposal: Approved
-
--Literature Review: Complete (Investigated synchronous state mapping behaviors and glitch elimination techniques using non-blocking assignments).
-
--Hardware FSM Structure: Implemented (barrier_fsm.v sequential state memory registers and conditional case blocks fully written).
-
--Simulation Environment: Established (tb_barrier.v written to cycle through inputs over a 200ns timeline matrix).
-
-### Progress Check 2 (May 18, 2026)
--Hardware Implementation: Complete. RTL synthesis generated zero latch warnings or timing violations.
-
--Physical Testing: Complete. Hardware state signals correctly mapped to physical GPIO pins, driving sensor inputs and barrier servo configurations perfectly.
-
-### Final Checking (May 19, 2026)
-- [ ] Final Review and Documentation
 
 ## References
 Brown, S., & Vranesic, Z. (2013). Fundamentals of Digital Logic with Verilog Design. McGraw-Hill Education.
